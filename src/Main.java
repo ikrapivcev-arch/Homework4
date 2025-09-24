@@ -86,5 +86,6 @@ public class Main {
         else {
             System.out.println(" третье число больше ");
         }
+
     }
 }
