@@ -30,21 +30,18 @@ public class Main {
         }
         System.out.println(" Задание 4 ");
 
-        int age1 = 4;
-        if (age1 > 2 && age1 < 6) {
-            System.out.println( " Если возраст равен " + age1 + " то ему нужно ходить в детский сад ");
-        }
-        int age2 = 10;
-        if (age2 > 7 && age2 < 17) {
-            System.out.println(" Если возраст равен " + age2 + " то ему нужно ходить в школу ");
-        }
-        int age3 = 20;
-        if (age3 >= 18 && age3 <= 24) {
-            System.out.println(" Если возраст равен " + age3 + " то ему нужно ходить в университет ");
-        }
-        int age4 = 24;
-        if (age4 >= 24) {
-            System.out.println(" Если возраст равен " + age4 + " то ему нужно ходить на работу");
+        int age1 = 5;
+
+        if (age1 >= 2 && age1 <= 6) {
+            System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в детский сад.");
+        } else if (age1 >= 7 && age1 <= 17) {
+            System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в школу.");
+        } else if (age1 >= 18 && age1 <= 24) {
+            System.out.println("Если возраст человека равен " + age1 + ", то его место в университете.");
+        } else if (age1 > 24) {
+            System.out.println("Если возраст человека равен " + age1 + ", то ему пора ходить на работу.");
+        } else {
+            System.out.println("Возраст " + age1 + " слишком мал для классификации.");
         }
         System.out.println(" Задание 5 ");
 
@@ -86,5 +83,6 @@ public class Main {
         else {
             System.out.println(" третье число больше ");
         }
+
     }
 }
